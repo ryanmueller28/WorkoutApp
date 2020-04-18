@@ -1,8 +1,6 @@
 package com.Doane.charactersheet;
 
 
-import android.text.GetChars;
-
 import java.util.Random;
 
 /**
@@ -23,17 +21,17 @@ public class Dice {
     public int numDice;
 
     public static final Dice[] dice ={
-            new Dice("d4", 4),
-            new Dice("d6", 6),
-            new Dice("d8", 8),
-            new Dice("d10", 10),
-            new Dice("d20", 20),
-            new Dice("d100", 100)
+            new Dice(),
+            new Dice(),
+            new Dice(),
+            new Dice(),
+            new Dice(),
+            new Dice()
     };
 
-    Dice(String diceType, int value){
+    Dice(){
         this.diceType = diceType;
-        this.numSides = value;
+        this.numSides = numSides;
     }
 
     public int getType(){

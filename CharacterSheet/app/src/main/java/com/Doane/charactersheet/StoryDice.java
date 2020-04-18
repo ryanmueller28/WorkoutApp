@@ -6,23 +6,16 @@ package com.Doane.charactersheet;
  * The story dice have up to twelve sides
  * but have unique values on each individual dice
  */
-public class StoryDice extends Dice {
+public class StoryDice extends Dice{
 
+    Face resultFace;
 
+    String dieName;
+    int resultNum;
 
-    StoryDice(String diceType, int value) {
-        super(diceType, value);
-    }
-
-    /**
-     * Function that assembles and rolls a dice pool
-     */
-
-    public void assembleDicePool(){
+    StoryDice(){
 
     }
 
-    public void rollDicePool(){
 
-    }
 }
